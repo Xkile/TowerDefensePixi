@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Ensure canvas is behind UI */
+}
+#ui {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-family: Arial;
+    z-index: 2; /* Ensure UI is above canvas */
+}
+#tower-selection {
+    margin-top: 10px;
+}
+#tower-selection button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#tower-selection button.selected {
+    background: yellow;
+    color: black;
+}

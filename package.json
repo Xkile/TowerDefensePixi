@@ -1,0 +1,17 @@
+{
+    "name": "pixijs-tower-defense",
+    "version": "1.0.0",
+    "description": "A tower defense game built with PixiJS and Vite",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "pixi.js": "^7.4.0"
+    },
+    "devDependencies": {
+        "vite": "^5.4.8"
+    }
+}

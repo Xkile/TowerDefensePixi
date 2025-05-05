@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixiJS Tower Defense Game</title>
+    <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+    <div id="ui">
+        <p>Gold: <span id="gold">100</span></p>
+        <p>Wave: <span id="wave">1</span></p>
+        <p>Base HP: <span id="base-hp">1000</span></p>
+        <p>Click a tower type, then click on the grid to place it</p>
+        <div id="tower-selection">
+            <button id="basic-tower" class="selected">Basic (50g)</button>
+            <button id="sniper-tower">Sniper (75g)</button>
+            <button id="rapid-tower">Rapid (60g)</button>
+        </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
